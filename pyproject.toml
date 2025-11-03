@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tournament-ops-intelligence"
+version = "0.1.0"
+description = "Tournament Operations Intelligence Suite"
+readme = "README.md"
+authors = [
+  {name = "Tournament Ops Team"}
+]
+license = {text = "MIT"}
+requires-python = ">=3.10"
+keywords = ["tournament", "operations", "analytics", "scheduling"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://example.com/tournament-ops-intelligence"
+
+[tool.setuptools.packages.find]
+where = ["src"]

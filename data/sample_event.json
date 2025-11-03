@@ -1,0 +1,69 @@
+{
+  "event": {
+    "id": "summer-showdown",
+    "name": "Summer Showdown 2024",
+    "start_date": "2024-07-01",
+    "end_date": "2024-07-07"
+  },
+  "metadata": {
+    "game_title": "Mythic Arena",
+    "format": "Round Robin into Knockout"
+  },
+  "venues": [
+    {
+      "id": "arena-north",
+      "name": "North Division Arena",
+      "capacity": 5000,
+      "timezone": "UTC"
+    },
+    {
+      "id": "arena-south",
+      "name": "South Division Arena",
+      "capacity": 4500,
+      "timezone": "UTC"
+    }
+  ],
+  "teams": [
+    {
+      "id": "alpha",
+      "name": "Team Alpha",
+      "region": "NA",
+      "players": [
+        {"id": "alpha-1", "name": "Alice", "rating": 1900, "role": "Captain"},
+        {"id": "alpha-2", "name": "Aaron", "rating": 1880},
+        {"id": "alpha-3", "name": "Ava", "rating": 1850}
+      ]
+    },
+    {
+      "id": "bravo",
+      "name": "Squad Bravo",
+      "region": "EU",
+      "players": [
+        {"id": "bravo-1", "name": "Blake", "rating": 1825, "role": "Captain"},
+        {"id": "bravo-2", "name": "Bianca", "rating": 1840},
+        {"id": "bravo-3", "name": "Brett", "rating": 1790}
+      ]
+    },
+    {
+      "id": "charlie",
+      "name": "Collective Charlie",
+      "region": "APAC",
+      "players": [
+        {"id": "charlie-1", "name": "Chen", "rating": 1920, "role": "Captain"},
+        {"id": "charlie-2", "name": "Chloe", "rating": 1875},
+        {"id": "charlie-3", "name": "Caleb", "rating": 1835}
+      ]
+    },
+    {
+      "id": "delta",
+      "name": "Dynasty Delta",
+      "region": "LATAM",
+      "players": [
+        {"id": "delta-1", "name": "Diego", "rating": 1780, "role": "Captain"},
+        {"id": "delta-2", "name": "Dina", "rating": 1765},
+        {"id": "delta-3", "name": "Derek", "rating": 1740}
+      ]
+    }
+  ],
+  "matches": []
+}
